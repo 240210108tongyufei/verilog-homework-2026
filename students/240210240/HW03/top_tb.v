@@ -27,7 +27,7 @@ cd4017 u_high( carry, reset, 1'b0, cout_high, q_high );
 
 initial begin
     $dumpfile("wave.vcd");
-    $dumpvars(0, top_tb);
+    $dumpvars();
     reset = 1;
     #20 reset = 0;
     #4000 $finish;
