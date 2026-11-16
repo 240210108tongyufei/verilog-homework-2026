@@ -1,4 +1,4 @@
-## 第二次作业（HW03）：两位十进制计数器仿真
+## 第三次作业（HW03）：两位十进制计数器仿真
 
 ### 1. 使用方波激励、两个CD4017、实现两位十进制计数器的仿真
 
@@ -13,10 +13,10 @@
 
 | 路径 | 说明 |
 | --- | --- |
-| `students/240201103/HW01/clk_gen.v` | 激励信号模块 |
-| `students/240201103/HW01/cd4017.v` | CD4017模块 |
-| `students/240201103/HW01/top_tb.v` | 测试程序，必须实例化clk_gen和两个cd4017|
-| `students/240201103/HW01/report.png` | 波形图文件 |
+| `students/240201101/HW03/clk_gen.v` | 激励信号模块 |
+| `students/240201101/HW03/cd4017.v` | CD4017模块 |
+| `students/240201101/HW03/top_tb.v` | 测试程序，必须实例化clk_gen和两个cd4017|
+| `students/240201101/HW03/report.png` | 波形图文件 |
 
 
 在自己的学号分支上，通过 Pull Request 提交至教师仓库 `rosickey/verilog-homework-2026` 的 `main`。标题格式为：
