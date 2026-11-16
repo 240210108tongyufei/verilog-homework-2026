@@ -34,7 +34,7 @@ module top_tb;
 
     initial begin
         $dumpfile("wave.vcd");
-        $dumpvars(0,top_tb);
+        $dumpvars();
     end
 
 endmodule
