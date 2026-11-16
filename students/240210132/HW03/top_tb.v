@@ -21,19 +21,10 @@ module top_tb;
 
                 #25  reset = 1'b0;
 
-                #180 inhibit = 1'b1;
-                #120 inhibit = 1'b0;
+                #300 inhibit = 1'b1;
+                #100 inhibit = 1'b0;
 
-                #180 reset = 1'b1;
-                #60  reset = 1'b0;
-
-                #180 inhibit = 1'b1;
-                #120 inhibit = 1'b0;
-
-                #180 reset = 1'b1;
-                #60  reset = 1'b0;
-
-                #150 $finish;
+                #1700 $finish;
         end
 
         initial
