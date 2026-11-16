@@ -10,7 +10,7 @@ module top_tb;
 	wire[9:0] q_tens;
 
 	cd4017 u_ones(clk,reset,inhibit,cout_ones,q_ones);
-	cd4017 u_tens(q_ones[0],reset,inhibit,cout_tens,q_tens);
+	cd4017 u_tens(~cout_ones,reset,inhibit,cout_tens,q_tens);
 
 	initial
 	begin
