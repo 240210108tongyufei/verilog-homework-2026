@@ -6,7 +6,7 @@ module top_tb;
 	wire cout;
 
 	clk_gen u_clk(clk);
-cd4017 u_cd4017(clk,reset,inhibit,cout,q);
+	cd4017 u_cd4017(clk,reset,inhibit,cout,q);
 	led u_led0(q[0],led0);
 	led u_led1(q[1],led1);
 	led u_led2(q[2],led2);
@@ -16,14 +16,15 @@ cd4017 u_cd4017(clk,reset,inhibit,cout,q);
 	led u_led6(q[6],led6);
 	led u_led7(q[7],led7);
 
-initial begin
-    $dumpfile("wave.vcd");
-    $dumpvars(0,top_tb);
-    	reset = 1;
-    	inhibit = 0;
-    	#100
-    	reset = 0;
-    	#1000
-    	$finish;
-end
+	initial
+	begin
+		$dumpfile("wave.vcd");
+		$dumpvars(0,top_tb);
+		reset = 1;
+		inhibit = 0;
+		#100
+		reset = 0;
+		#1000
+		$finish;
+	end
 endmodule
