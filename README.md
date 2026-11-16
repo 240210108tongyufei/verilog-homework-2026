@@ -10,21 +10,26 @@
 
 > [第一次提交成绩](https://github.com/rosickey/verilog-homework-2026/tree/main/grades/registration-grades.md)
 
-## 以下同学未提交
-
-| 学号 | 姓名 | 班级 |
-| --- | --- | --- |
-| 240210115 | 李诗瀚 | 2402101 |
-| 240210142 | 张钲明 | 2402101 |
-| 240210233 | 李俊杰 | 2402102 |
-
 ## [第一次作业HW01](https://github.com/rosickey/verilog-homework-2026/tree/main/assignments/HW01)
 
+> [HW01成绩](https://github.com/rosickey/verilog-homework-2026/tree/main/grades/HW01-grades.md)
+
+## [第二次作业](https://github.com/rosickey/verilog-homework-2026/tree/main/assignments/HW02)
+
+## 未通过的 PR
+
+| PR | 学号 | 姓名 | 作业 | 原因 |
+| --- | --- | --- | --- | --- |
+| 406 | 240210120 | 张健华 | HW02 | students/240210120/.student.yml 与 main 中已接受的身份文件不一致；请恢复或同步 main 中的版本 |
+| 410 | 240210237 | 沈强 | HW02 | 文件名不在 HW02.allowed_files 列表中（重命名原路径也须符合）：students/240210237/HW02/HW02.png |
+| 431 | 240210120 | 张健华 | HW02 | 来源分支必须是本人的九位学号，不能使用 main、patch-1 或 HW01 等分支 |
+
+## [第三次作业](https://github.com/rosickey/verilog-homework-2026/tree/main/assignments/HW03)
+
 - 1.作业严格按照文件名规则提交！
-- 2.代码风格严格按照课本统一标准。例如，不能使用“.” .clk这种形式表示参量
+- 2.代码风格严格按照课本统一标准。例如，**不能使用“.” .clk这种形式表示参量** **不能使用“.” .clk这种形式表示参量** **不能使用“.” .clk这种形式表示参量**
 - 3.不符合merge合并都已经reverse撤销
 - 4.请严格按照上述要求修改，检查后，再次慎重提交PR
-
 
 ## 一、必须遵守的规则
 
