@@ -12,8 +12,8 @@ module top_tb;
 
 	initial
 	begin
-		$dumpfile("wave.vcd");
-		$dumpvars(0, top_tb);
+		$dumpfile("done");
+		$dumpvars();
 		reset = 1;
 		inhibit = 0;
 		#15 reset = 0;
