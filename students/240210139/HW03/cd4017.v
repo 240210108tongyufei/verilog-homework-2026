@@ -1,7 +1,5 @@
 `timescale 1ns/1ps
 
-// cd4017.v
-// HW03 计数器模块：课堂订正版 CD4017，十进制计数并输出十路译码
 module cd4017(clk, reset, inhibit, cout, q);
 	input clk, reset, inhibit;
 	output cout;
