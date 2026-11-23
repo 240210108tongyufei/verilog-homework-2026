@@ -20,6 +20,9 @@
 
 ## [第三次作业](https://github.com/rosickey/verilog-homework-2026/tree/main/assignments/HW03)
 
+> [HW03成绩](https://github.com/rosickey/verilog-homework-2026/tree/main/grades/HW03-grades.md)
+
+
 - 1.作业严格按照文件名规则提交！
 - 2.代码风格严格按照课本统一标准。例如，**不能使用“.” .clk这种形式表示参量** **不能使用“.” .clk这种形式表示参量** **不能使用“.” .clk这种形式表示参量**
 - 3.不符合merge合并都已经reverse撤销
