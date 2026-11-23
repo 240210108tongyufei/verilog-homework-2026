@@ -1,0 +1,13 @@
+module clk_gen(clk, zkb, zq);
+	output reg clk;
+	input [15:0] zkb;   
+	input [7:0]  zq;   
+	initial
+	begin
+		clk=0;
+		forever begin
+			#(zkb*zq/100)         clk=1;  
+			#(zkb*(100-zq)/100)   clk=0;  
+		end
+	end
+endmodule
