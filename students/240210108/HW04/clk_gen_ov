@@ -1,4 +1,4 @@
-module clk_gen(clk, zkb, zq);
+module clk_gen_o(clk, zkb, zq);
 	output reg clk;
 	input [15:0] zkb;   
 	input [7:0]  zq;   
